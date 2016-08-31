@@ -1,0 +1,4 @@
+- Export from GRAMPS as GRAMPS XML. The resulting file will have a .gramps extension.
+- mv data.gramps data.gz
+- gunzip data.gz
+- mv data LocascioFamilyTree.xml

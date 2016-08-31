@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.5.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.5.1/">
   <header>
-    <created date="2016-07-27" version="3.4.9-1"/>
+    <created date="2016-08-30" version="3.4.9-1"/>
     <researcher>
     </researcher>
     <mediapath>/home/mark/working/genealogy/media</mediapath>
@@ -506,9 +506,9 @@
       <type>Birth</type>
       <dateval val="2004-06-30"/>
     </event>
-    <event handle="_acfd1ef009221b5010d" change="1188772528" id="E0117">
+    <event handle="_acfd1ef009221b5010d" change="1472608618" id="E0117">
       <type>Birth</type>
-      <dateval val="2006-05-06"/>
+      <dateval val="2006-05-08"/>
     </event>
     <event handle="_acfd1ef009c489bce1e" change="1188772528" id="E0118">
       <type>Birth</type>
@@ -1505,6 +1505,14 @@
     <event handle="_d5ddc7ec82825c6d76c9d2fb6f3" change="1469678241" id="E0337">
       <type>Marriage</type>
     </event>
+    <event handle="_d647dda77c273e00518c706b305" change="1472525966" id="E0338">
+      <type>Birth</type>
+      <dateval val="2010-01-21"/>
+    </event>
+    <event handle="_d64af2e24c25cca9d485cc3871b" change="1472608692" id="E0339">
+      <type>Birth</type>
+      <dateval val="2013-03-02"/>
+    </event>
   </events>
   <people home="_acfd1ef00031ca0c340">
     <person handle="_acfd1eef5fa2c79c86f" change="1243467705" id="I0001">
@@ -1856,7 +1864,7 @@ Il
       <childof hlink="_acfd1eef60b749bedaa"/>
       <parentin hlink="_acfd1eef8041847a441"/>
     </person>
-    <person handle="_acfd1eef80758a1e0a6" change="1243467889" id="I0025">
+    <person handle="_acfd1eef80758a1e0a6" change="1471577033" id="I0025">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Diana</first>
@@ -1867,6 +1875,7 @@ Il
       <eventref hlink="_acfd1ef091f24aa939a" role="Primary"/>
       <childof hlink="_acfd1eef60b749bedaa"/>
       <parentin hlink="_acfd1eef812509ca4aa"/>
+      <noteref hlink="_d6248432d34354df2c99ad2094b"/>
     </person>
     <person handle="_acfd1eef81653f74112" change="1243467854" id="I0026">
       <gender>M</gender>
@@ -3054,19 +3063,19 @@ Il
       </name>
       <parentin hlink="_acfd1ef005a07439bb2"/>
     </person>
-    <person handle="_acfd1ef00635188f70d" change="1188772528" id="I0158">
+    <person handle="_acfd1ef00635188f70d" change="1472608590" id="I0158">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Sophia</first>
+        <first>Sophia Isabella</first>
         <surname>Locascio</surname>
       </name>
       <eventref hlink="_acfd1ef008762a7c4ad" role="Primary"/>
       <childof hlink="_acfd1eefd8b26384a19"/>
     </person>
-    <person handle="_acfd1ef008c6a2af761" change="1188772528" id="I0159">
+    <person handle="_acfd1ef008c6a2af761" change="1472608626" id="I0159">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Grace</first>
+        <first>Grace Marie</first>
         <surname>Locascio</surname>
       </name>
       <eventref hlink="_acfd1ef009221b5010d" role="Primary"/>
@@ -3082,19 +3091,19 @@ Il
       <eventref hlink="_acfd1ef0fb8553a6c15" role="Primary"/>
       <parentin hlink="_acfd1eefda166fafa94"/>
     </person>
-    <person handle="_acfd1ef00a116ef2267" change="1188772528" id="I0161">
+    <person handle="_acfd1ef00a116ef2267" change="1472525828" id="I0161">
       <gender>F</gender>
       <name type="Birth Name">
-        <first>Michelle</first>
+        <first>Michelle Ann</first>
         <surname>Gough</surname>
       </name>
       <eventref hlink="_acfd1ef00c3132fa01c" role="Primary"/>
       <childof hlink="_acfd1eefd960bc105c0"/>
     </person>
-    <person handle="_acfd1ef00c828dbb08c" change="1188772528" id="I0162">
+    <person handle="_acfd1ef00c828dbb08c" change="1472525841" id="I0162">
       <gender>M</gender>
       <name type="Birth Name">
-        <first>Kile</first>
+        <first>Kile James</first>
         <surname>Gough</surname>
       </name>
       <eventref hlink="_acfd1ef00cd48a44649" role="Primary"/>
@@ -3414,13 +3423,15 @@ Il
       </name>
       <parentin hlink="_acfd1ef017c7e04cdae"/>
     </person>
-    <person handle="_acfd1ef02cd36d140cd" change="1188772528" id="I0201">
+    <person handle="_acfd1ef02cd36d140cd" change="1472525665" id="I0201">
       <gender>F</gender>
       <name type="Birth Name">
         <first>Marie</first>
         <surname></surname>
       </name>
       <parentin hlink="_acfd1eef8914dea6a2d"/>
+      <parentin hlink="_d647d9c80fb594eed92154d6b15"/>
+      <noteref hlink="_d647db0f53c2f3bc24d2a81fed0"/>
     </person>
     <person handle="_acfd1ef02f008e6bd99" change="1188772528" id="I0202">
       <gender>F</gender>
@@ -5120,6 +5131,32 @@ Il
       </name>
       <eventref hlink="_d5ddacf31c650ab79c4c61c2dad" role="Primary"/>
     </person>
+    <person handle="_d647d9f6ff3669ba80a7807ff0c" change="1472525564" id="I0374">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Nick</first>
+        <surname>Rossi</surname>
+      </name>
+      <parentin hlink="_d647d9c80fb594eed92154d6b15"/>
+    </person>
+    <person handle="_d647ddf60523a59c1593a87d28f" change="1472526003" id="I0375">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>John Salvatore</first>
+        <surname>Gough</surname>
+      </name>
+      <eventref hlink="_d647dda77c273e00518c706b305" role="Primary"/>
+      <childof hlink="_acfd1eefd960bc105c0"/>
+    </person>
+    <person handle="_d64af2e69345edcc45ea69ea429" change="1472608705" id="I0376">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Frank Robert</first>
+        <surname>Locascio</surname>
+      </name>
+      <eventref hlink="_d64af2e24c25cca9d485cc3871b" role="Primary"/>
+      <childof hlink="_acfd1eefd8b26384a19"/>
+    </person>
   </people>
   <families>
     <family handle="_acfd1eef60b749bedaa" change="1188772528" id="F0003">
@@ -5616,15 +5653,16 @@ Il
       <childref hlink="_acfd1eeffd96a7d11e7"/>
       <childref hlink="_acfd1ef00031ca0c340"/>
     </family>
-    <family handle="_acfd1eefd8b26384a19" change="1188772528" id="F0023">
+    <family handle="_acfd1eefd8b26384a19" change="1472608694" id="F0023">
       <rel type="Married"/>
       <father hlink="_acfd1eefd67520c3b3a"/>
       <mother hlink="_acfd1eeffc410811e88"/>
       <eventref hlink="_acfd1ef0b20178c9942" role="Family"/>
       <childref hlink="_acfd1ef00635188f70d"/>
       <childref hlink="_acfd1ef008c6a2af761"/>
+      <childref hlink="_d64af2e69345edcc45ea69ea429"/>
     </family>
-    <family handle="_acfd1eefd960bc105c0" change="1188772528" id="F0049">
+    <family handle="_acfd1eefd960bc105c0" change="1472525968" id="F0049">
       <rel type="Married"/>
       <father hlink="_acfd1ef00523e27051f"/>
       <mother hlink="_acfd1eefd8f243be13b"/>
@@ -5632,6 +5670,7 @@ Il
       <eventref hlink="_acfd1ef0de816cbf268" role="Family"/>
       <childref hlink="_acfd1ef00a116ef2267"/>
       <childref hlink="_acfd1ef00c828dbb08c"/>
+      <childref hlink="_d647ddf60523a59c1593a87d28f"/>
     </family>
     <family handle="_acfd1eefda166fafa94" change="1188772528" id="F0092">
       <rel type="Married"/>
@@ -6081,6 +6120,11 @@ Il
       <childref hlink="_b4d976551a271f48659"/>
       <childref hlink="_b4d9768ee8058d3baf8"/>
       <childref hlink="_b4d976cf8b50495085c"/>
+    </family>
+    <family handle="_d647d9c80fb594eed92154d6b15" change="1472525564" id="F0129">
+      <rel type="Married"/>
+      <father hlink="_d647d9f6ff3669ba80a7807ff0c"/>
+      <mother hlink="_acfd1ef02cd36d140cd"/>
     </family>
   </families>
   <citations>
@@ -6551,6 +6595,13 @@ Frank Canzolino, beloved husband of the late Amelia; loving father of Vito, Jenn
     </note>
     <note handle="_b4f2e23e0dd70880b8d" change="1243470442" id="N0037" type="Event Note">
       <text>Cook County Marriage File # 2186530</text>
+    </note>
+    <note handle="_d6248432d34354df2c99ad2094b" change="1471577031" id="N0038" type="Person Note">
+      <text>Diana L. Mullally, nee Canzolino, 62, of Villa Park, beloved wife of Larry; loving daughter of Anthony and Florence Canzolino; dearest sister of Marilyn (John) Loster and Frank (Carol) Canzolino; dear sister-in-law of Daniel (Shirley) Mullally, Kathy (James) Samson, Michael (Claudia), Joe (Barbara), Terry (Jennifer), the late Tom (Lisa Antonio) and the late Marianne Mullally; also survived by many nieces and nephews. Visitation 3 to 9 p.m. Friday at Humes Funeral Home, 320 W. Lake St., Addison (2 mi. W. of Rt. 83, 2 mi. E. of Rt. 53). Funeral Service 8 p.m. Interment private. In lieu of flowers, donations to The Diabetes Foundation, Northern Illinois Office, 30 North Michigan Ave., Suite 2015, Chicago, IL 60602 appreciated. 
+www.humesfuneralhome.com 630-628-8808.</text>
+    </note>
+    <note handle="_d647db0f53c2f3bc24d2a81fed0" change="1472525663" id="N0039" type="Person Note">
+      <text>Anthony Vertucci's first wife was Mary D'Onofrio. She died young, and Anthony re-married Marie. After Anthony died, Marie re-married Nick Rossi.</text>
     </note>
   </notes>
 </database>
