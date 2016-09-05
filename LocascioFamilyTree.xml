@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.5.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.5.1/">
   <header>
-    <created date="2016-08-30" version="3.4.9-1"/>
+    <created date="2016-09-04" version="3.4.9-1"/>
     <researcher>
     </researcher>
     <mediapath>/home/mark/working/genealogy/media</mediapath>
@@ -1512,6 +1512,14 @@
     <event handle="_d64af2e24c25cca9d485cc3871b" change="1472608692" id="E0339">
       <type>Birth</type>
       <dateval val="2013-03-02"/>
+    </event>
+    <event handle="_d65b6b04b675f05a267ab9df315" change="1473050786" id="E0340">
+      <type>Birth</type>
+      <dateval val="2008-09-22"/>
+    </event>
+    <event handle="_d65b6b7e3c633dd29e63c302b6d" change="1473050836" id="E0341">
+      <type>Birth</type>
+      <dateval val="2011-05-31"/>
     </event>
   </events>
   <people home="_acfd1ef00031ca0c340">
@@ -5157,6 +5165,24 @@ Il
       <eventref hlink="_d64af2e24c25cca9d485cc3871b" role="Primary"/>
       <childof hlink="_acfd1eefd8b26384a19"/>
     </person>
+    <person handle="_d65b6b1ad2b1b58356c783c3b21" change="1473050795" id="I0377">
+      <gender>M</gender>
+      <name type="Birth Name">
+        <first>Nicholas Albert</first>
+        <surname>Sanchez</surname>
+      </name>
+      <eventref hlink="_d65b6b04b675f05a267ab9df315" role="Primary"/>
+      <childof hlink="_acfd1eefda166fafa94"/>
+    </person>
+    <person handle="_d65b6b9d781478b0a7abf132593" change="1473050849" id="I0378">
+      <gender>F</gender>
+      <name type="Birth Name">
+        <first>Gianna Lucia</first>
+        <surname>Sanchez</surname>
+      </name>
+      <eventref hlink="_d65b6b7e3c633dd29e63c302b6d" role="Primary"/>
+      <childof hlink="_acfd1eefda166fafa94"/>
+    </person>
   </people>
   <families>
     <family handle="_acfd1eef60b749bedaa" change="1188772528" id="F0003">
@@ -5672,11 +5698,13 @@ Il
       <childref hlink="_acfd1ef00c828dbb08c"/>
       <childref hlink="_d647ddf60523a59c1593a87d28f"/>
     </family>
-    <family handle="_acfd1eefda166fafa94" change="1188772528" id="F0092">
+    <family handle="_acfd1eefda166fafa94" change="1473050849" id="F0092">
       <rel type="Married"/>
       <father hlink="_acfd1ef00976031aad6"/>
       <mother hlink="_acfd1eefd9a4f27cc3a"/>
       <eventref hlink="_acfd1ef0fb8553a6c15" role="Family"/>
+      <childref hlink="_d65b6b1ad2b1b58356c783c3b21"/>
+      <childref hlink="_d65b6b9d781478b0a7abf132593"/>
     </family>
     <family handle="_acfd1eefdd51ce6fc3c" change="1188772528" id="F0042">
       <rel type="Married"/>
